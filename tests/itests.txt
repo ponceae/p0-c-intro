@@ -1,0 +1,22 @@
+D_hello                        pass
+C_goodbye                      pass
+B_cat                          pass
+B_cat_no_filename              pass
+B_cat_file_noexist             pass
+A_triodd                       FAIL (see outputs/A_triodd.diff for details)
+A_triodd_invalid_num           pass
+A_uniq_simple                  FAIL (see outputs/A_uniq_simple.diff for details)
+A_uniq_similar                 FAIL (see outputs/A_uniq_similar.diff for details)
+A_uniq_nonseq                  FAIL (see outputs/A_uniq_nonseq.diff for details)
+A_uniq_empty                   FAIL (see outputs/A_uniq_empty.diff for details)
+A_uniq_no_filename             pass
+A_uniq_file_noexist            FAIL (see outputs/A_uniq_file_noexist.diff for details)
+A_invalid_switch               pass
+A_invalid_opt1                 FAIL (see outputs/A_invalid_opt1.diff for details)
+A_invalid_opt2                 FAIL (see outputs/A_invalid_opt2.diff for details)
+A_invalid_opt3                 FAIL (see outputs/A_invalid_opt3.diff for details)
+A_invalid_opt4                 pass
+A_ordering                     FAIL (see outputs/A_ordering.diff for details)
+A_ordering_scrambled           FAIL (see outputs/A_ordering_scrambled.diff for details)
+A_ordering_multi               FAIL (see outputs/A_ordering_multi.diff for details)
+No memory leak found.

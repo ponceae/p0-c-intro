@@ -1,0 +1,4 @@
+--- outputs/A_invalid_opt2.txt	2021-09-17 16:13:22.600507747 -0400
++++ expected/A_invalid_opt2.txt	2021-08-24 14:13:54.000000000 -0400
+@@ -0,0 +1 @@
++Invalid argument.

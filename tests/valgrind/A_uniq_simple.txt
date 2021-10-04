@@ -1,0 +1,16 @@
+==3257527== Memcheck, a memory error detector
+==3257527== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3257527== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3257527== Command: ../intro -u inputs/A_uniq_simple.txt
+==3257527== 
+../intro: invalid option -- 'u'
+Invalid argument.
+==3257527== 
+==3257527== HEAP SUMMARY:
+==3257527==     in use at exit: 0 bytes in 0 blocks
+==3257527==   total heap usage: 1 allocs, 1 frees, 8,192 bytes allocated
+==3257527== 
+==3257527== All heap blocks were freed -- no leaks are possible
+==3257527== 
+==3257527== For lists of detected and suppressed errors, rerun with: -s
+==3257527== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
